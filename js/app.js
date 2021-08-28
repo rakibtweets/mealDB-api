@@ -54,8 +54,8 @@ const SingleMealData = (mealId) =>{
 const displaySingleMealDetails = (meal) => {
     const singleMealDiv = document.getElementById('single-meal-details')
     const div = document.createElement('div')
+    div.classList.add('col','mx-auto')
     singleMealDiv.textContent = ''
-     div.classList.add('col')
 
      div.innerHTML = `
 
